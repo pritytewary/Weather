@@ -2,7 +2,7 @@
 
 import Section from "@/components/layout/section";
 import { WeatherData } from "@/lib/weatherSearch";
-import { ResponsiveLine } from "@nivo/line";
+
 import { useMemo, useState } from "react";
 import {
   Temperature,
@@ -11,8 +11,8 @@ import {
   WindDirection,
 } from "./utils";
 import dayjs from "dayjs";
-import WeatherChart from "./chart";
 import WeatherForcast from "./forcast";
+import WeatherChart from "./chart";
 
 export default function Weather({ data }: { data: WeatherData }) {
   const [tempUnit, setTempUnit] = useState<"celsius" | "fahrenheit">("celsius");
