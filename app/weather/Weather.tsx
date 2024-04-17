@@ -103,7 +103,7 @@ const Weather: React.FC<WeatherProps> = ({}) => {
       <div className="flex flex-col items-center gap-20 lg:ml-20">
         <div className="flex flex-col items-center mb-5">
           <h1 className="text-4xl mt-20 mb-5 text-center font-semibold">
-            Today's Highlight
+            Today&apos;s Highlight
           </h1>
           <div className="flex flex-col lg:flex-row gap-4">
             <div className="flex flex-col items-center bg-zinc-50 shadow-xl rounded-xl gap-5 py-2 w-full lg:w-[200px] h-[150px]">
