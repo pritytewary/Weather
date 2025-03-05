@@ -1,6 +1,6 @@
 # Weather 🌧
 
-### Check the weather in your city with ease! [Watch Demo](https://weather.prity.me)
+### Check the weather in your city with ease! [Watch Demo](https://weather-prity.vercel.app/)
 
 ## Features 📝
 
