@@ -1,7 +1,9 @@
 "use client";
 
-import Lottie from "lottie-react";
 import { useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 export default function LottieIcon({
   name,
